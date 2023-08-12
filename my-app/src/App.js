@@ -5,12 +5,13 @@ import Greet from './func_components/Greet'
 import Welcome from './class_components/Welcome';
 import './App.css';
 import Hello from './func_components/Hello';
+import Message from './class_components/Message';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Greet name="Igor" heroName="Batman">
+        {/* <Greet name="Igor" heroName="Batman">
           <p>This is children props</p>
         </Greet>
         <Greet name="Eduard" heroName="Superman">
@@ -19,8 +20,9 @@ class App extends React.Component {
         <Greet name="Pacis" heroName="Spiderman" />
         <Welcome name="Igor" heroName="Batman" />
         <Welcome name="Eduard" heroName="Superman" />
-        <Welcome name="Pacis" heroName="Spiderman" />
+        <Welcome name="Pacis" heroName="Spiderman" /> */}
         {/* <Hello /> */}
+        <Message />
       </div>
     )
   }
