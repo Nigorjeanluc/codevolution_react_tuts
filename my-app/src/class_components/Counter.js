@@ -9,10 +9,11 @@ class Counter extends Component {
   }
 
   increment() {
+    // the callback function for setState is the second parameter
     this.setState({
       count: this.state.count + 1
-    })
-    console.log(this.state.count)
+    }, () => console.log('Callback value', this.state.count)) // asychronous function
+    console.log(this.state.count) // sychronous function
   }
 
   render() {
