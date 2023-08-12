@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import logo from './logo.svg';
@@ -6,11 +7,14 @@ import Welcome from './class_components/Welcome';
 import './App.css';
 import Hello from './func_components/Hello';
 import Message from './class_components/Message';
+import Counter from './class_components/Counter';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Counter />
+        {/* <Message /> */}
         {/* <Greet name="Igor" heroName="Batman">
           <p>This is children props</p>
         </Greet>
@@ -22,7 +26,6 @@ class App extends React.Component {
         <Welcome name="Eduard" heroName="Superman" />
         <Welcome name="Pacis" heroName="Spiderman" /> */}
         {/* <Hello /> */}
-        <Message />
       </div>
     )
   }
