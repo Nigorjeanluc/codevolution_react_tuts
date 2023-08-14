@@ -13,7 +13,7 @@ class EventBind extends Component {
     this.setState({
       message: 'GoodBye!'
     })
-    // console.log(this) // it's undefined why?
+    console.log(this)
   }
 
   render() {
