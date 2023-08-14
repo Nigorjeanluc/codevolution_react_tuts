@@ -10,13 +10,15 @@ import Message from './class_components/Message';
 import Counter from './class_components/Counter';
 import FunctionClick from './func_components/FunctionClick';
 import ClassClick from './class_components/ClassClick';
+import EventBind from './class_components/EventBind';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ClassClick />
-        <FunctionClick />
+        <EventBind />
+        {/* <ClassClick />
+        <FunctionClick /> */}
         {/* <Counter /> */}
         {/* <Message /> */}
         {/* <Greet name="Igor" heroName="Batman">
