@@ -22,9 +22,9 @@ class App extends React.Component {
           <button>Action</button>
         </Greet>
         <Greet name="Pacis" heroName="Spiderman" />
-        {/* <Welcome name="Igor" heroName="Batman" />
+        <Welcome name="Igor" heroName="Batman" />
         <Welcome name="Eduard" heroName="Superman" />
-        <Welcome name="Pacis" heroName="Spiderman" /> */}
+        <Welcome name="Pacis" heroName="Spiderman" />
         {/* <Hello /> */}
       </div>
     )
