@@ -13,9 +13,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+        {/* <Counter /> */}
         {/* <Message /> */}
-        {/* <Greet name="Igor" heroName="Batman">
+        <Greet name="Igor" heroName="Batman">
           <p>This is children props</p>
         </Greet>
         <Greet name="Eduard" heroName="Superman">
@@ -24,7 +24,7 @@ class App extends React.Component {
         <Greet name="Pacis" heroName="Spiderman" />
         <Welcome name="Igor" heroName="Batman" />
         <Welcome name="Eduard" heroName="Superman" />
-        <Welcome name="Pacis" heroName="Spiderman" /> */}
+        <Welcome name="Pacis" heroName="Spiderman" />
         {/* <Hello /> */}
       </div>
     )
