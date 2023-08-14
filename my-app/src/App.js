@@ -8,23 +8,25 @@ import './App.css';
 import Hello from './func_components/Hello';
 import Message from './class_components/Message';
 import Counter from './class_components/Counter';
+import FunctionClick from './func_components/FunctionClick';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <FunctionClick />
         {/* <Counter /> */}
         {/* <Message /> */}
-        <Greet name="Igor" heroName="Batman">
+        {/* <Greet name="Igor" heroName="Batman">
           <p>This is children props</p>
         </Greet>
         <Greet name="Eduard" heroName="Superman">
           <button>Action</button>
         </Greet>
-        <Greet name="Pacis" heroName="Spiderman" />
-        <Welcome name="Igor" heroName="Batman" />
+        <Greet name="Pacis" heroName="Spiderman" /> */}
+        {/* <Welcome name="Igor" heroName="Batman" />
         <Welcome name="Eduard" heroName="Superman" />
-        <Welcome name="Pacis" heroName="Spiderman" />
+        <Welcome name="Pacis" heroName="Spiderman" /> */}
         {/* <Hello /> */}
       </div>
     )
