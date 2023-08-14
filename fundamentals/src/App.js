@@ -13,6 +13,7 @@ import ClassClick from './class_components/ClassClick';
 import EventBind from './class_components/EventBind';
 import ParentComponent from './class_components/ParentComponent';
 
+
 class App extends React.Component {
   render() {
     return (
