@@ -9,11 +9,13 @@ import Hello from './func_components/Hello';
 import Message from './class_components/Message';
 import Counter from './class_components/Counter';
 import FunctionClick from './func_components/FunctionClick';
+import ClassClick from './class_components/ClassClick';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <ClassClick />
         <FunctionClick />
         {/* <Counter /> */}
         {/* <Message /> */}
