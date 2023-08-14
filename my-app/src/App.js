@@ -13,16 +13,16 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+        {/* <Counter /> */}
         {/* <Message /> */}
-        {/* <Greet name="Igor" heroName="Batman">
+        <Greet name="Igor" heroName="Batman">
           <p>This is children props</p>
         </Greet>
         <Greet name="Eduard" heroName="Superman">
           <button>Action</button>
         </Greet>
         <Greet name="Pacis" heroName="Spiderman" />
-        <Welcome name="Igor" heroName="Batman" />
+        {/* <Welcome name="Igor" heroName="Batman" />
         <Welcome name="Eduard" heroName="Superman" />
         <Welcome name="Pacis" heroName="Spiderman" /> */}
         {/* <Hello /> */}
