@@ -9,7 +9,7 @@ export class UserGreeting extends Component {
     }
   }
   render() {
-
+    // Short Circuit Operator Approach
     return this.state.isLoggedIn && <div>Welcome Igor</div>
 
     // return (
