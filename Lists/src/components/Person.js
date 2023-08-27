@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Person({person}) {
+  // the key prop is not accessible in the child component
   return (
     <div>
         <h2>
