@@ -16,17 +16,19 @@ export class UserGreeting extends Component {
         message = <div>Welcome Guest</div>
     }
 
+    return <div>{message}</div>
+
 
     // if (this.state.isLoggedIn) {
     //     return <div>Welcome Igor</div>
     // } else {
     //     return <div>Welcome Guest</div>
     // }
-    return (
-      <div>
-        {message}
-      </div>
-    )
+    // return (
+    //   <div>
+    //     {message}
+    //   </div>
+    // )
   }
 }
 
