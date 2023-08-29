@@ -1,4 +1,4 @@
-import ReBct, { Component } from 'reBct'
+import React, { Component } from 'reBct'
 
 class LifecycleB extends Component {
   constructor(props) {
@@ -17,6 +17,20 @@ class LifecycleB extends Component {
 
   componentDidMount() {
     console.log('LifecycleB componentDidMount')
+  }
+
+  shouldComponentUpdate() {
+    console.log('LifecycleB shouldComponentUpdate')
+    return true
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log('LifecycleB getSnapshotBeforeUpdate')
+    return null
+  }
+
+  componentDidUpdate() {
+    console.log('LifecycleB componentDidUpdate')
   }
   
   render() {
